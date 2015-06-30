@@ -1,1 +1,12 @@
 #created this file on github, (while there's a local clone, committed but not pushed)
+
+#just use as notepad
+
+#after fork a repo
+git remote add upstream url
+git fetch upstream
+git merge upstream/master
+
+#local branch
+git checkout -b branch_name
+
